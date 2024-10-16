@@ -1,0 +1,31 @@
+@use "header/header";
+@use "section/section";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: #f5f6fa;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+li {
+    font-weight: bold;
+    margin-left: 24px;
+    list-style: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .container {
+        max-width: 80%;
+    }
+}

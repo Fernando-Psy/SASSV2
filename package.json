@@ -1,0 +1,21 @@
+{
+  "name": "sassv2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass source/main.scss build/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "i": "^0.3.7",
+    "node-sass": "^9.0.0",
+    "sass": "^1.79.5"
+  }
+}
